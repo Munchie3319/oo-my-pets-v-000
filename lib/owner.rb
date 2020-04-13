@@ -33,11 +33,11 @@ class Owner
      "I am a #{self.species}."
    end
 
-   def cats 
+   def cats
      Cat.all.select{|item| item.owner == self}
    end
 
-   def dogs 
+   def dogs
      Dog.all.select{|item| item.owner == self}
    end
 
