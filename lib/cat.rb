@@ -5,12 +5,12 @@ class Cat
 
   def initialize(name)
     @name = name
-    @owner = owner 
+    @owner = owner
     @mood = mood
     @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 end
